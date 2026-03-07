@@ -27,7 +27,7 @@ export default function Sidebar({ data }) {
             <div className={styles.divider} />
 
             <nav className={styles.nav}>
-                {['about', 'experience', 'projects', 'interests', 'contact'].map(s => (
+                {['about', 'experience', 'projects', 'interests', 'contact', 'resume'].map(s => (
                     <a key={s} href={`#${s}`}>{s}</a>
                 ))}
             </nav>

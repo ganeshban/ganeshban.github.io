@@ -5,36 +5,84 @@
   "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=AlexRivera",
   "location": "Dallas, Texas",
   "available": true,
+  "resume": "resume.docx",
   "experience": [
     {
-      "company": "Bank Of America",
+      "company": "Bank of America",
       "role": "Senior Software Engineer",
-      "period": "2024 – Present",
-      "tags": ["Java", "Spring", "Back-end", "CI-CD", "Open Shift"],
+      "period": "FEBRUARY 2024 – PRESENT",
+      "tags": [
+        "Java",
+        "Spring",
+        "Back-end",
+        "Full Stack",
+        "CI-CD",
+        "Open Shift"
+      ],
       "points": [
-        "First key achievement or responsibility",
-        "Second key point"
+        "Led cross functional team of developers through full SDLC using Agile/Scrum, setting goals, conducting performance reviews and maintaining project timeline and quality standards.",
+        "Design and develop container based enterprise application using spring boot, Java 21, Oracle DB, leveraging Java 21 features like pattern matching, records, virtual threads.",
+        "Executed major platform upgrade from java 8 -> java 17 -> java 21 and spring boot 2.7X -> 3.4.X, migrating entire stack from J2EE to Jakarta EE with zero downtime.",
+        "Implemented Spring Security with JWT token authentication and authorization, maintaining role based, user based authorization system across REST-full endpoints.",
+        "Develop multiple batch jobs endpoints to handle complex ETL and data processing workflow, collaborate closely with ETL team.",
+        "Author Ansible Playbook to update passwords in Secure Vault Portal, fetch and pass the token.",
+        "Develop custom Jar file to communicate to Secure Vault Portal using token and fetch database credentials and inject them in JDBC connection, eliminating hardcoded credentials.",
+        "Configure Quartz scheduler and spring mail to automate email notification, leveraging cluster based dynamic scheduling system.",
+        "Set up Log4j with custom Appender to stream audit data to downstream monitoring application.",
+        "Built responsive, reusable react component that used in different parts of UI component.",
+        "Implemented FEDSSO in ENTITLEMENT service, where system authenticate user before they made any changes."
       ]
     },
     {
-      "company": "Stripe",
-      "role": "Software Engineer II",
-      "period": "2019 – 2022",
+      "company": "ABIOMED (Johnson & Johnson) Danvers, MA (Remote)",
+      "role": "Full stack java developer",
+      "period": "OCTOBER 2021 - JANUARY 2024",
       "points": [
         "First key achievement or responsibility",
         "Second key point"
       ],
-      "tags": ["React", "Node.js", "Go"]
+      "tags": [
+        "Java",
+        "Spring",
+        "Back-end",
+        "Full Stack",
+        "CI-CD",
+        "Open Shift"
+      ]
     },
     {
-      "company": "Freelance",
-      "role": "Frontend Developer",
-      "period": "2017 – 2019",
+      "company": "NRG Energy Huston, TX",
+      "role": "FULL STACK JAVA DEVELOPER",
+      "period": "JUNE 2020 – SEPTEMBER 2021",
       "points": [
         "First key achievement or responsibility",
         "Second key point"
       ],
-      "tags": ["Vue", "Firebase", "Figma"]
+      "tags": [
+        "Java",
+        "Spring",
+        "Back-end",
+        "Full Stack",
+        "CI-CD",
+        "Open Shift"
+      ]
+    },
+    {
+      "company": "Verizon Charlotte, NC",
+      "role": "Java/J2EE DEVELOPER",
+      "period": "JANUARY 2020 – MAY 2020",
+      "points": [
+        "First key achievement or responsibility",
+        "Second key point"
+      ],
+      "tags": [
+        "Java",
+        "Spring",
+        "Back-end",
+        "Full Stack",
+        "CI-CD",
+        "Open Shift"
+      ]
     }
   ],
   "projects": [
@@ -42,33 +90,69 @@
       "name": "Codebeam",
       "description": "A real-time collaborative code editor with AI-assisted completions and live preview. Used by 10k+ developers.",
       "url": "https://github.com",
-      "tags": ["React", "WebSockets", "OpenAI"]
+      "tags": [
+        "Java",
+        "Spring",
+        "Back-end",
+        "Full Stack",
+        "CI-CD",
+        "Open Shift"
+      ]
     },
     {
       "name": "Pagefold",
       "description": "An open-source static site generator focused on typography and editorial design. 2k GitHub stars.",
       "url": "https://github.com",
-      "tags": ["Go", "Markdown", "CSS"]
+      "tags": [
+        "Go",
+        "Markdown",
+        "CSS"
+      ]
     },
     {
       "name": "Terracycle",
       "description": "A sustainability tracker that gamifies eco-friendly habits. Winner of GreenHack 2023.",
       "url": "https://github.com",
-      "tags": ["React Native", "Supabase"]
+      "tags": [
+        "React Native",
+        "Supabase"
+      ]
     }
   ],
   "interests": [
-    { "icon": "🎸", "label": "Guitar" },
-    { "icon": "🧗", "label": "Rock Climbing" },
-    { "icon": "📚", "label": "Sci-Fi Books" },
-    { "icon": "☕", "label": "Specialty Coffee" },
-    { "icon": "🎮", "label": "Indie Games" },
-    { "icon": "🌍", "label": "Travel" }
+    {
+      "icon": "🎸",
+      "label": "Guitar"
+    }, {
+      "icon": "\uD83D\uDEB6\u200D➡\uFE0F",
+      "label": "Walk"
+    },
+    {
+      "icon": "🧗",
+      "label": "Climbing"
+    },
+    {
+      "icon": "📚",
+      "label": "Sci-Fi"
+    },
+    {
+      "icon": "☕",
+      "label": "Tea"
+    },
+    {
+      "icon": "🎮",
+      "label": "Indie Games"
+    },
+    {
+      "icon": "🌍",
+      "label": "Travel"
+    }
   ],
   "contact": {
-    "email": "alex@example.com",
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com",
-    "twitter": "https://twitter.com"
+    "email": "ganeshban200@gmail.com",
+    "github": "https://github.com/ganeshban",
+    "linkedin": "https://linkedin.com/in/ganeshban",
+    "twitter": "https://twitter.com",
+    "webpage": "https://ganeshban.com.np"
   }
 }

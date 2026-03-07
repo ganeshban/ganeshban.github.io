@@ -1,0 +1,222 @@
+.section {
+  margin-bottom: 80px;
+  animation: fadeUp 0.6s 0.55s both;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--cream);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.downloadBtn svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.downloadBtn:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.docWrap {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: #fff;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+/* Loading / error states */
+.state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 64px 24px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.stateError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.stateError span { font-size: 28px; }
+.stateError p { font-size: 12px; color: var(--accent); }
+.stateError small { font-size: 11px; color: var(--muted); }
+.stateError code { background: var(--cream); padding: 2px 5px; }
+
+/* Document content styles */
+.docContent {
+  padding: 48px 56px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
+.docContent h1 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.docContent h2 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.docContent h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  color: var(--ink);
+}
+
+.docContent p {
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+
+.docContent strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.docContent em {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.docContent ul,
+.docContent ol {
+  padding-left: 0;
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+.docContent ul li,
+.docContent ol li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 4px;
+  color: var(--muted);
+}
+
+.docContent ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 11px;
+}
+
+.docContent ol {
+  counter-reset: ol-counter;
+}
+
+.docContent ol li {
+  counter-increment: ol-counter;
+}
+
+.docContent ol li::before {
+  content: counter(ol-counter) '.';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 10px;
+}
+
+.docContent a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.docContent a:hover {
+  text-decoration: underline;
+}
+
+.docContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  font-size: 11px;
+}
+
+.docContent th {
+  text-align: left;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--ink);
+  color: var(--muted);
+}
+
+.docContent td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .docContent {
+    padding: 28px 20px;
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
