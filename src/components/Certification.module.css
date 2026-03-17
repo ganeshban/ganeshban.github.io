@@ -1,0 +1,74 @@
+.section {
+    margin-bottom: 80px;
+    animation: fadeUp 0.6s 0.5s both;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 10px;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--ink);
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.card:hover {
+    background: var(--cream);
+}
+
+
+.card:hover .icon {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    flex: 1;
+    min-width: 0;
+}
+
+.item {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    font-size: 12px;
+    border-radius: 2px;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    cursor: default;
+}
+
+.arrow {
+    font-size: 12px;
+    color: var(--muted);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.card:hover .arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

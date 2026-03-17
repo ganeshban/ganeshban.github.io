@@ -2,7 +2,7 @@
   "name": "Ganesh Ban",
   "title": "Full-Stack Engineer & Creative Technologist",
   "bio": "I build elegant, performant web experiences at the intersection of design and engineering. Passionate about technology, developer tools, and making the web more accessible for everyone.",
-  "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=AlexRivera",
+  "avatar": "https://api.dicebear.com/9.x/notionists/svg?seed=Zoie",
   "location": "Dallas, Texas",
   "available": true,
   "resume": "resume.docx",
@@ -10,7 +10,7 @@
     {
       "company": "Bank of America",
       "role": "Senior Software Engineer",
-      "period": "FEBRUARY 2024 – PRESENT",
+      "period": "FEBRUARY 2024 – FEBRUARY 2026",
       "tags": [
         "Java",
         "Spring",
@@ -30,7 +30,7 @@
         "Configure Quartz scheduler and spring mail to automate email notification, leveraging cluster based dynamic scheduling system.",
         "Set up Log4j with custom Appender to stream audit data to downstream monitoring application.",
         "Built responsive, reusable react component that used in different parts of UI component.",
-        "Implemented FEDSSO in ENTITLEMENT service, where system authenticate user before they made any changes."
+        "Implemented FED-SSO in ENTITLEMENT service, where system authenticate user before they made any changes."
       ]
     },
     {
@@ -38,8 +38,16 @@
       "role": "Full stack java developer",
       "period": "OCTOBER 2021 - JANUARY 2024",
       "points": [
-        "First key achievement or responsibility",
-        "Second key point"
+        "Involved in design and deliver of cloud-native micro services on AWS ECS using spring boot, java8/11, KAFKA and MONGODB following 12 factor app principles.",
+        "Migrated monolithic application to micro-services architecture, scaling critical services in a horizontal way for high availability.",
+        "Deployed containerized spring boot application via DOCKER and Jenkins CI/CD pipeline on AWS ECS, enabling fully automated deployment using blue-green strategy.",
+        "Implemented spring security with multiple authentication system like, JWT authentication, basic authentication (session based).",
+        "Developed reactive and template driven forms in Angular for rich and modern UI.",
+        "Wrote reusable typescript components and Angular directives and used jasmine for testing.",
+        "Manage cloud infrastructure automation on AWS via Cloud-Formation ensuring consistent, repeatable, deployments of web applications.",
+        "Provisioned AWS infrastructure (VPC, subnets, EC2, ECS, ELB, S3, IAM) using Cloud-Formation templates for lower level environment deployments.",
+        "Design and documented API using Swagger UI, wrote Junit and Mockito test cases to maintain high unit and integration test coverage.",
+        "Collaborated with cross functional teams during spring planning and backlog refinement, translating business requirement into user story with clear acceptance criteria."
       ],
       "tags": [
         "Java",
@@ -55,8 +63,14 @@
       "role": "FULL STACK JAVA DEVELOPER",
       "period": "JUNE 2020 – SEPTEMBER 2021",
       "points": [
-        "First key achievement or responsibility",
-        "Second key point"
+        "Design and develop scalable back-end micro services using spring boot, spring MVC, spring AOP, Spring JPA.",
+        "Implemented Spring Security in all business related rest-full endpoint preventing session explodes, click jacking, CORS attack, CSRF attack.",
+        "Introduced trace-id in load balancer level and pass it to all micro services which make debugging super easy.",
+        "Developed global exception handler using @ControllerAdvice that differences 400 error, 500 error, and validation error and returning user-friendly message, properly logs the stack traces without exposing internal implementation.",
+        "Boosted page load performance through front-end optimization and lazy loading strategies. ",
+        "Wrote Junit and Mockito test cases to maintain high unit and integration test coverage.",
+        "Used Postman to design, execute and document rest API test.",
+        "Actively resolving production JIRA, collaborated with business stakeholders on new feature feasibility."
       ],
       "tags": [
         "Java",
@@ -72,8 +86,17 @@
       "role": "Java/J2EE DEVELOPER",
       "period": "JANUARY 2020 – MAY 2020",
       "points": [
-        "First key achievement or responsibility",
-        "Second key point"
+        "Develop and maintain Rest-full micro services and participated in SDLC using Agile-Scrum methodology.",
+        "Configure Hibernate with Oracle database connection pooling; develop HQL queries, named queries, entity-graph for efficient data access.",
+        "Optimized database queries by implementing pagination with JPA specification API and Pageable reducing memory consumption.",
+        "Implemented User-based, role-based authentication and authorization system using spring security.",
+        "Move Authentication layer to API-gateway level by reducing code duplication.",
+        "Developed endpoint that is used by ETL process which will fetch the bulk data from up-stream application and load them in database.",
+        "Containerized micro-services using DOCKER and manage CI/CD process with Jenkins, maven, JfrogArtifactory.",
+        "Collaborated with developers, QA teams, Security teams for secure and smooth delivery within the given timeline.",
+        "Actively participated in peer programming session to troubleshoot critical production issue. Resolving Jira raised by QA team Business Analyst or any other observation found within the team.",
+        "Wrote Junit test cases and mock the functionality using mockito to get higher code coverage.",
+        "Implemented Swagger for endpoint documentation, testing real data."
       ],
       "tags": [
         "Java",
@@ -87,35 +110,48 @@
   ],
   "projects": [
     {
-      "name": "Codebeam",
-      "description": "A real-time collaborative code editor with AI-assisted completions and live preview. Used by 10k+ developers.",
-      "url": "https://github.com",
+      "name": "SMS Notification",
+      "description": "A Complete SMS solution for small project or personal app. A back-end system built on Spring with mySQL and Flutter on mobile device. Mobile device will send the sms using phone SIM card.",
+      "url": "https://github.com/ganeshban/sms-backend",
       "tags": [
         "Java",
         "Spring",
         "Back-end",
-        "Full Stack",
-        "CI-CD",
-        "Open Shift"
+        "Flutter",
+        "mySQL"
       ]
     },
     {
-      "name": "Pagefold",
-      "description": "An open-source static site generator focused on typography and editorial design. 2k GitHub stars.",
-      "url": "https://github.com",
+      "name": "Trip Nepal App",
+      "description": "The guide on your fingerTip for solo traveller in nepal, App will manage everything that a traveller will need, hotels, rental, hiring, foods, taxi in some places in nepal.",
+      "url": "https://github.com/ganeshban/trip-nepal-app",
       "tags": [
-        "Go",
-        "Markdown",
-        "CSS"
+        "Java",
+        "Spring",
+        "Back-end",
+        "Flutter",
+        "mySQL"
       ]
     },
     {
-      "name": "Terracycle",
-      "description": "A sustainability tracker that gamifies eco-friendly habits. Winner of GreenHack 2023.",
-      "url": "https://github.com",
+      "name": "Blood Donation App",
+      "description": " The Mobile app which will have user blood group database and can be request to user for blood donation.",
+      "url": "https://github.com/ganeshban/bloodGroupApp",
       "tags": [
-        "React Native",
-        "Supabase"
+        "Java",
+        "Spring",
+        "Back-end",
+        "Flutter",
+        "mySQL"
+      ]
+    },
+    {
+      "name": "NEPSE Automation",
+      "description": "A system that can fire buy api to NEPSE using fully automated user session.",
+      "url": "https://github.com/ganeshban/NEPSE_AUTOMATION",
+      "tags": [
+        "Python",
+        "Bash"
       ]
     }
   ],
@@ -123,7 +159,8 @@
     {
       "icon": "🎸",
       "label": "Guitar"
-    }, {
+    },
+    {
       "icon": "\uD83D\uDEB6\u200D➡\uFE0F",
       "label": "Walk"
     },
@@ -140,10 +177,6 @@
       "label": "Tea"
     },
     {
-      "icon": "🎮",
-      "label": "Indie Games"
-    },
-    {
       "icon": "🌍",
       "label": "Travel"
     }
@@ -154,5 +187,61 @@
     "linkedin": "https://linkedin.com/in/ganeshban",
     "twitter": "https://twitter.com",
     "webpage": "https://ganeshban.com.np"
-  }
+  },
+  "certifications": [
+    {
+      "name": "SQL (Basic) Certificate - Hackerrank",
+      "url": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "SQL (Intermediate) Certificate - Hackerrank",
+      "url": "https://www.hackerrank.com/certificates/c75e9d545ad9"
+    },
+    {
+      "name": "Java (Basic) Certificate",
+      "url": "https://www.hackerrank.com/certificates/ed2125fb1c77"
+    },
+    {
+      "name": "Problem Solving (Basic) Certificate",
+      "url": "https://www.hackerrank.com/certificates/32d56afc1db6"
+    }
+  ],
+  "language": [
+    {
+      "name": "Java",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Spring",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Spring Boot",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Python",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Database",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Javascript",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Typescript",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "React",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    },
+    {
+      "name": "Angular",
+      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+    }
+  ]
 }

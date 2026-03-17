@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from './Sidebar.module.css'
 
-export default function Sidebar({ data }) {
-    const { name, title, avatar, location, available, contact } = data
+export default function Sidebar({data}) {
+    const {name, title, avatar, location, available, contact} = data
     const contactEntries = Object.entries(contact || {}).filter(([, v]) => v)
 
     return (
         <aside className={styles.sidebar}>
             {avatar && (
                 <div className={styles.avatarWrap}>
-                    <img src={avatar} alt={name} onError={e => (e.target.style.display = 'none')} />
+                    <img src={avatar} alt={name} onError={e => (e.target.style.display = 'none')}/>
                 </div>
             )}
 
@@ -19,15 +19,15 @@ export default function Sidebar({ data }) {
 
             {available && (
                 <div className={styles.badge}>
-                    <span className={styles.dot} />
+                    <span className={styles.dot}/>
                     Available for work
                 </div>
             )}
 
-            <div className={styles.divider} />
+            <div className={styles.divider}/>
 
             <nav className={styles.nav}>
-                {['about', 'experience', 'projects', 'interests', 'contact', 'resume'].map(s => (
+                {['about', 'language', 'experience', 'projects', 'interests', 'contact', 'certification', 'resume'].map(s => (
                     <a key={s} href={`#${s}`}>{s}</a>
                 ))}
             </nav>
