@@ -2,7 +2,7 @@ import React from 'react'
 import SectionLabel from './SectionLabel.jsx'
 import styles from './Interests.module.css'
 
-export default function Language({items}) {
+export default function Language({ items }) {
     return (
         <section className={styles.section} id="language">
             <SectionLabel> Language/Framework</SectionLabel>
@@ -10,7 +10,7 @@ export default function Language({items}) {
                 {items.map((item, i) => (
                     <div className={styles.item} key={i}>
                         <span className={styles.emoji}>{item.icon}</span>
-                        <span>{item.label}</span>
+                        <span>{item.name}</span>
                     </div>
                 ))}
             </div>

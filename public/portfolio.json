@@ -209,39 +209,39 @@
   "language": [
     {
       "name": "Java",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🎯"
     },
     {
       "name": "Spring",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🎁"
     },
     {
       "name": "Spring Boot",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🌿"
     },
     {
       "name": "Python",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "📌"
     },
     {
       "name": "Database",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🪆"
     },
     {
       "name": "Javascript",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🧸"
     },
     {
       "name": "Typescript",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "🖥️"
     },
     {
       "name": "React",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "👽"
     },
     {
       "name": "Angular",
-      "icon": "https://www.hackerrank.com/certificates/d356e0126aef"
+      "icon": "📓"
     }
   ]
 }
