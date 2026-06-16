@@ -4,7 +4,7 @@
   "bio": "I build elegant, performant web experiences at the intersection of design and engineering. Passionate about technology, developer tools, and making the web more accessible for everyone.",
   "avatar": "https://api.dicebear.com/9.x/notionists/svg?seed=Zoie",
   "location": "Dallas, Texas",
-  "available": true,
+  "available": false,
   "resume": "resume.docx",
   "experience": [
     {
