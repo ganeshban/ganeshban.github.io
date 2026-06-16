@@ -5,7 +5,6 @@
   "avatar": "https://api.dicebear.com/9.x/notionists/svg?seed=Zoie",
   "location": "Dallas, Texas",
   "available": false,
-  "resume": "resume.docx",
   "experience": [
     {
       "company": "Bank of America",
